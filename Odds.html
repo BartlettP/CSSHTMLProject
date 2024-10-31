@@ -1,0 +1,53 @@
+<!Doctype HTML>
+<html>
+<head>
+<!--
+Classes
+Author: Bartlett Powell
+Date: 4/28/22
+
+Filename: Odds.html
+-->
+<title>NBA Finals Bet Calculator</title>
+<link href="Championship_contenders.css" rel = "stylesheet" />
+<script src="SportBetCalculator.js"></script>
+
+</head>
+<body>
+<h1>NBA Finals Betting Odds</h1>
+
+	<form action="" id = "Betting Calculation" 
+	
+	<div>
+		<fieldset>
+		<legend>These are the Betting Odds for Four NBA Teams</legend>
+		<label >Choose a team</label>
+		<input type="radio" name="Selectedteam" value="Golden State Warriors" 
+		onclick="calculateTotal()" />
+		Golden State +312
+		<input type="radio" name ="Selectedteam" value="Phoenix Suns"
+		onclick="calculateTotal()" />
+		Phoenix +401
+		<input type="radio" name="Selectedteam" value="Boston Celtics"
+		onclick="calculateTotal()" />
+		Boston +403
+		<input type="radio" name="Selectedteam" value="Milwuakee Bucks"
+		onclick="calculateTotal()" />
+		Milwuakee +660
+		</fieldset>
+		<fieldset>
+		<legend>Potential Betting Amount:</legend>
+		<input type="number" name="betAmount" step=any min=0>
+		</fieldset>
+		<fieldset>
+		<label for="email">Enter your Email for your hypothetical payout and more!:</label>
+		<input type="email" id="email" name="email">
+		<P>Your email will be used to contact you for future betting opportunities, sports articles, and when new merchandise is released.</p>
+		<br><br>
+		<input type='submit' id='submit' onclick="calculateTotal()" />
+		</fieldset>
+	</form>
+	<footer> <a href="Championship_Contenders.html">Championship Contenders</a> &copy; <a href="Boston_Celtics.html">Boston</a> &copy; <a href="Golden_State.html">GSW</a> &copy; <a href="Milwuakee_Bucks.html">MLW</a> &copy; <a href="Phoenix_Suns.html">PHO</a> &copy; <a href="Odds.html">ODDS</a> </footer>
+	</body>
+</html>
+		

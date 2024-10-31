@@ -1,0 +1,77 @@
+@charset "utf-8";
+/*
+filename: final_exam.css
+Author: Bartlett Powell
+Date:4/21/22
+
+*/ 
+/* HTML Styles */
+html {
+	background-color: rgb(39, 35, 92);
+	color: rgb(51,51,51);
+	font-size: 20px;
+}
+
+
+/* Page Body Styles */
+
+body{ 
+background-color: rgb(250, 161, 32);
+   font-family: Verdana, Geneva, Arial, sans-serif; 	
+   margin-left: auto;
+   margin-right: auto;
+   width: 960px;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Article Styles */
+article{ 
+text-align: center;
+}
+article header {
+	margin: 20px auto;
+	width: 70%;
+	font-size: 4em;
+	text-align: center;
+}
+
+
+/* Footer Styles */
+
+footer {
+	background-color: rgb(250, 161, 32);
+	display: block;
+	padding: 25px;
+}
+
+body > footer > nav.vertical, body > footer > section {
+	float: left;
+	width: 25%;	
+}
+
+body > footer > nav.vertical > ul {
+	line-height: 2em;
+}
+
+footer nav a {
+	text-decoration: underline;
+}
+
+footer a:visited, footer a:link {
+	color: purple;
+}
+
+footer a:hover, footer a:active {
+	color: white;
+}
+
+footer::after {
+   clear: both;	
+   content: "";
+   display: table;
+}
